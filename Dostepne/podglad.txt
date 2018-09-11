@@ -1,0 +1,9 @@
+model
+rok produkcji
+silnik
+ilosc koni mechanicznych
+maksymalna predkosc
+klimatyzacja
+ilosc drzwi
+cena
+dostepna ilosc
