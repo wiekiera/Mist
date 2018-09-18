@@ -8,6 +8,7 @@ private:
 	
 public:
 	std::string model;
+	std::string sciezka = "Dostepne//Audi//Audi_";
 	std::string silnik;
 	int max_predkosc;
 	int dostepna_ilosc;
@@ -21,14 +22,14 @@ public:
 		{	
 			system("cls");
 			cout << dostepna_ilosc << " pieces left" << endl;
-			cout << model << endl;
-			cout << rok_produkcji << endl;
-			cout << silnik << endl;
-			cout << konie_mechaniczne << endl;
-			cout << max_predkosc << endl;
-			cout << klimatyzacja << endl;
-			cout << ile_drzwi << endl;
-			cout << cena << endl;
+			cout <<"model: " <<model << endl;
+			cout <<"Rok produkcji: "<< rok_produkcji << endl;
+			cout <<"Silnik: "<< silnik << endl;
+			cout <<"Koni mechanicznych: "<< konie_mechaniczne << endl;
+			cout <<"Maksymalna predkosc: "<< max_predkosc << endl;
+			cout <<"Klimatyzacja: "<< klimatyzacja << endl;
+			cout <<ile_drzwi <<" Drzwiowy" <<endl;
+			cout <<"Cena: "<< cena << endl;
 		}
 		else cout << "Brak danego modelu na magazynie" << endl;
 	}
